@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+Disallow: /images/
+Disallow: /pages/
+Disallow: /scripts/
+Crawl-delay: 120

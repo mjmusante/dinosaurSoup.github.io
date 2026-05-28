@@ -1,2 +1,2 @@
-# dinosaurSoup.github.io
-Sparkbird SMP Archive
+# Archive for the Unofficial Sparkbird SMP
+If you are reading this, you are probably looking at the github page for this website. Or perhaps you wanted to find any hidden pages. I am very sorry to say that this is a regular, boring website. Enjoy browsing, I suppose?

@@ -1,0 +1,67 @@
+:root {
+    --yellow: #f1bc5c;
+    --red: #701f01;
+    --light-green: #7a7a30;
+    --light-brown: #936939;
+    --orange: #aa4a00;
+    --dark-brown: #4a2711;
+    --dark-green: #534a0f;
+    --dark-magenta: #681622;
+    --pale-yellow: #dac782;
+    --off-white: #f1e4b0;
+    --off-black: #070213;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    background-color: var(--light-green);
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: var(--red);
+    color: var(--off-white);
+    margin: 0;
+}
+
+header > h1 {
+    margin-bottom: 0;
+}
+
+nav > a {
+    color: var(--light-green);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: var(--red);
+    color: var(--off-white);
+    padding: 1em;
+}
+
+footer > p {
+    margin: 1em;
+}
+
+/* Main */
+main {
+    background-color: var(--off-white);
+}
+
+main > h2 {
+    margin-top: 0;
+}
+
+main {
+    padding: 1em 0 1em 0;
+}
+
+/* Homepage */
+#homepage {
+    text-align: center;
+    
+}
