@@ -1,0 +1,7 @@
+---
+title: Directory
+permalink: "/directory.html"
+---
+{%- for page in collections.page -%}
+<p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+{%- endfor -%}
