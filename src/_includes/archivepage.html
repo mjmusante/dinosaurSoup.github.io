@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ title }}</h2>
+<h4>Built by: {{ built }}</h4>
+<div>
+    TO DO: Images go here
+</div>
+<hr>
+<h3>- About -</h3>
+{{ content | safe }}
+{% endblock %}

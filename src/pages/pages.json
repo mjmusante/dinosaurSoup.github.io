@@ -1,4 +1,5 @@
 {
+    "layout": "archivepage.html",
     "tags": "page",
     "navigation": {
         "home": "../../../",
