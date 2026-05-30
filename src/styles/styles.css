@@ -21,14 +21,18 @@ body {
 
 /* Header */
 header {
-    text-align: center;
     background-color: var(--red);
     color: var(--off-white);
     margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    justify-items: center;
 }
 
 header > h1 {
     margin-bottom: 0;
+    justify-self: center;
 }
 
 nav > a {
@@ -50,6 +54,8 @@ footer > p {
 /* Main */
 main {
     background-color: var(--off-white);
+    max-width: 1200px;
+    margin: auto;
 }
 
 main > h2 {
@@ -60,8 +66,11 @@ main {
     padding: 1em 0 1em 0;
 }
 
+main > article {
+    margin: 0 2em 0 2em;
+}
+
 /* Homepage */
 #homepage {
     text-align: center;
-    
 }

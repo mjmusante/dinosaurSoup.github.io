@@ -1,0 +1,8 @@
+{
+    "tags": "page",
+    "navigation": {
+        "home": "../../../",
+        "directory": "../../../directory.html",
+        "search": "../../../search.html"
+    }
+}

@@ -1,4 +1,8 @@
 {
-    "layout": "default-page.html",
-    "tags": "page"
+    "layout": "subpage.html",
+    "navigation": {
+        "home": "/",
+        "directory": "/directory.html",
+        "search": "/search.html"
+    }
 }

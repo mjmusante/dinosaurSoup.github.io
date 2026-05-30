@@ -2,23 +2,27 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/bundle.css">
+        <link rel="stylesheet" href="/styles/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Unofficial Sparkbird SMP Archive</title>
+        <title>{{ title }}</title>
     </head>
     <body>
         <header>
             <nav>
-                <a href="/">Home</a>
-                <a href="search.html">Search</a>
-                <a href="directory.html">Index</a>
+                <a href="{{ navigation.home }}">Home</a>
+                <a href="{{ navigation.search }}">Search</a>
+                <a href="{{ navigation.directory }}">Directory</a>
             </nav>
             <h1>
                 {{ title }}
             </h1>
         </header>
         <main>
-            {{ content }}
+            {% block content %}
+                <p>
+                    You're not supposed to see this...
+                </p>
+            {% endblock %}
         </main>
         <footer>
             <p>
