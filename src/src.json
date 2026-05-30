@@ -1,5 +1,5 @@
 {
-    "layout": "subpage.html",
+    "layout": "toppage.html",
     "navigation": {
         "home": "/",
         "directory": "/directory.html",

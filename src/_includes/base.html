@@ -18,11 +18,13 @@
             </h1>
         </header>
         <main>
-            {% block content %}
-                <p>
-                    You're not supposed to see this...
-                </p>
-            {% endblock %}
+            <article id="{{ identifier }}">
+                {% block content %}
+                    <p>
+                        You're not supposed to see this...
+                    </p>
+                {% endblock %}
+            </article>
         </main>
         <footer>
             <p>

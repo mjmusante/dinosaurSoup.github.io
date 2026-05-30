@@ -58,7 +58,7 @@ main {
     margin: auto;
 }
 
-main > h2 {
+main > article > h2 {
     margin-top: 0;
 }
 
