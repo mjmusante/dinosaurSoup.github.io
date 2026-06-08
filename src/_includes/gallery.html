@@ -1,0 +1,19 @@
+<div class="gallery">
+    {% for image in images %}
+        <figure class="gal-slide fade">
+            <span class="gal-number">{{ loop.index }} / {{ loop.length }}</span>
+            <img class="gal-img" src="{{ image.src }}">
+            <figcaption class="gal-text">{{ image.caption }}</div>
+        </figure>
+    {% endfor %}
+
+    <a class="gal-prev" onclick="moveImage(-1)">&#10094;</a>
+    <a class="gal-next" onclick="moveImage(-1)">&#10094;</a>
+</div>
+
+<div class="gal-counter">
+    {% for image in images %}
+        <span class="gal-dot" onlclick="currentImage(0)"></span>
+    {% endfor %}
+</div>
+<script src="../../../scripts/gallery.js"></script>
