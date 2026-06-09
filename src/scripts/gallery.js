@@ -30,6 +30,6 @@ function galleryDisplay(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    gallery[galIndex].style.display = "block";
+    gallery[galIndex].style.display = "flex";
     dots[galIndex].className += " active";
 } 

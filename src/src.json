@@ -1,5 +1,6 @@
 {
     "layout": "toppage.html",
+    "header": "Unofficial Sparkbird SMP Archive",
     "navigation": {
         "home": "/",
         "directory": "/directory.html",

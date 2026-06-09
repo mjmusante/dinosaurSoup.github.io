@@ -3,12 +3,12 @@
         <figure class="gal-slide fade">
             <span class="gal-number">{{ loop.index }} / {{ loop.length }}</span>
             <img class="gal-img" src="{{ image.src }}">
-            <figcaption class="gal-text">{{ image.caption }}</div>
+            <figcaption class="gal-text">{{ image.caption }}</figcaption>
         </figure>
     {% endfor %}
 
     <a class="gal-prev" onclick="moveImage(-1)">&#10094;</a>
-    <a class="gal-next" onclick="moveImage(-1)">&#10094;</a>
+    <a class="gal-next" onclick="moveImage(-1)">&#10095;</a>
 </div>
 
 <div class="gal-counter">
