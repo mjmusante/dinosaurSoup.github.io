@@ -4,6 +4,7 @@
     "navigation": {
         "home": "/",
         "directory": "/directory.html",
-        "search": "/search.html"
+        "search": "/search.html",
+        "about": "/about.html"
     }
 }

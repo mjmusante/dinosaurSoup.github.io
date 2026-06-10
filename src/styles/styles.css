@@ -26,7 +26,7 @@ header {
     margin: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-columns: 0.8fr 1fr 0.8fr;
     justify-items: center;
 }
 
@@ -84,6 +84,12 @@ h3, h4 {
     text-align: center;
 }
 
+.divider {
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
 /* Gallery */
 .gal-contain {
     display: grid;
@@ -104,6 +110,7 @@ h3, h4 {
 .gal-img {
     width: 70vw;
     max-width: 1000px;
+    max-height: 600px;
     height: auto;
     margin: 0;
 }
@@ -138,16 +145,6 @@ h3, h4 {
 
 .gal-prev:hover, .gal-next:hover {
     background-color: rgba(0,0,0,0.8);
-}
-
-.gal-text {
-    padding: 0.5em 1em;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 40%;
-    background-color: var(--light-brown);
-    position: absolute;
-    text-align: center;
 }
 
 .gal-number {
